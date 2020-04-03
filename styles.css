@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#sample{
+    color: white;
+}
+#virus{
+    width: 45px;
+    height: 45px;
+}
+#death{
+width: 50px;
+height: 50px;
+}
+#tco{
+    font-size: 35px;
+    color: yellow;
+}
+#tde{
+    font-size: 35px;
+    color: red;
+}
+.total{
+    text-align: center;
+}
+.info{
+    color: orangered;
+    font-size: 25px;
+}
+h2{
+    margin: 0;
+    padding-left: 25px;
+}
+h3{
+    margin: 0;
+    padding: 25px;
+    display: inline;
+    font-size: 20px;
+}
+.tabs{
+    display: inline-block;
+    margin-left: 65px;
+
+}
+#guj{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: bold;
+}
+.heading{
+    margin: 0;
+    background-color: red;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.districts{
+    color: white;
+    margin-left: 45px;
+    margin-right: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+    border-radius: 25px;
+     
+    animation: fadeIn 5s;
+
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.numbers{
+    font-size: 40px;
+}
+
