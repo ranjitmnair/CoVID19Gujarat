@@ -6,13 +6,11 @@ fetch('https://api.covid19india.org/state_district_wise.json')
   .then(data => {
       document.getElementById("tco").innerHTML = data.Gujarat.districtData.Ahmadabad.confirmed + data.Gujarat.districtData.Bhavnagar.confirmed + data.Gujarat.districtData.Kachchh.confirmed
           + data.Gujarat.districtData.Gandhinagar.confirmed + data.Gujarat.districtData.Mahesana.confirmed + data.Gujarat.districtData.Porbandar.confirmed +
-          data.Gujarat.districtData.Rajkot.confirmed + data.Gujarat.districtData.Surat.confirmed + data.Gujarat.districtData.Vadodara.confirmed +
-          +3;
+          data.Gujarat.districtData.Rajkot.confirmed + data.Gujarat.districtData.Surat.confirmed + data.Gujarat.districtData.Vadodara.confirmed+3;
 
           document.getElementById("tde").innerHTML = data.Gujarat.districtData.Ahmadabad.delta.confirmed + data.Gujarat.districtData.Bhavnagar.delta.confirmed + data.Gujarat.districtData.Kachchh.delta.confirmed
           + data.Gujarat.districtData.Gandhinagar.delta.confirmed + data.Gujarat.districtData.Mahesana.delta.confirmed + data.Gujarat.districtData.Porbandar.delta.confirmed +
-          data.Gujarat.districtData.Rajkot.delta.confirmed + data.Gujarat.districtData.Surat.delta.confirmed + data.Gujarat.districtData.Vadodara.delta.confirmed +
-          ;
+          data.Gujarat.districtData.Rajkot.delta.confirmed + data.Gujarat.districtData.Surat.delta.confirmed + data.Gujarat.districtData.Vadodara.delta.confirmed        ;
      
 
 
