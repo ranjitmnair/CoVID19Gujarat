@@ -59,8 +59,8 @@ h3{
 
 .districts{
     color: white;
-    margin-left: 45px;
-    margin-right: 130px;
+    margin: 0;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     background-color: #333333;
     border-radius: 25px;
