@@ -15,7 +15,7 @@ fetch('https://api.covid19india.org/state_district_wise.json')
 
 
     document.getElementById("amdconf").innerHTML=data.Gujarat.districtData.Ahmadabad.confirmed;
-    document.getElementById("amddeaths").innerHTML=data.Gujarat.districtData.Ahmadabad.delta.confirmed-1;
+    document.getElementById("amddeaths").innerHTML=data.Gujarat.districtData.Ahmadabad.delta.confirmed;
 
     document.getElementById("bhaconf").innerHTML=data.Gujarat.districtData.Bhavnagar.confirmed;
     document.getElementById("bhadeaths").innerHTML=data.Gujarat.districtData.Bhavnagar.delta.confirmed+1;
