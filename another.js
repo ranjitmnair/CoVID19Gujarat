@@ -6,7 +6,7 @@ fetch('https://api.covid19india.org/state_district_wise.json')
   .then(data => {
       document.getElementById("tco").innerHTML = data.Gujarat.districtData.Ahmadabad.confirmed + data.Gujarat.districtData.Bhavnagar.confirmed + data.Gujarat.districtData.Kachchh.confirmed
           + data.Gujarat.districtData.Gandhinagar.confirmed + data.Gujarat.districtData.Mahesana.confirmed + data.Gujarat.districtData.Porbandar.confirmed +
-          data.Gujarat.districtData.Rajkot.confirmed + data.Gujarat.districtData.Surat.confirmed + data.Gujarat.districtData.Vadodara.confirmed+3+10;
+          data.Gujarat.districtData.Rajkot.confirmed + data.Gujarat.districtData.Surat.confirmed + data.Gujarat.districtData.Vadodara.confirmed+4;
 
         //  document.getElementById("tde").innerHTML = data.Gujarat.districtData.Ahmadabad.delta.confirmed + data.Gujarat.districtData.Bhavnagar.delta.confirmed + data.Gujarat.districtData.Kachchh.delta.confirmed//
          // + data.Gujarat.districtData.Gandhinagar.delta.confirmed + data.Gujarat.districtData.Mahesana.delta.confirmed + data.Gujarat.districtData.Porbandar.delta.confirmed +//
@@ -17,10 +17,10 @@ fetch('https://api.covid19india.org/state_district_wise.json')
 
 
     document.getElementById("amdconf").innerHTML=data.Gujarat.districtData.Ahmadabad.confirmed;
-    document.getElementById("amddeaths").innerHTML=8;//data.Gujarat.districtData.Ahmadabad.delta.confirmed-1//;
+    document.getElementById("amddeaths").innerHTML=5;//data.Gujarat.districtData.Ahmadabad.delta.confirmed-1//;
 
     document.getElementById("bhaconf").innerHTML=data.Gujarat.districtData.Bhavnagar.confirmed;
-    document.getElementById("bhadeaths").innerHTML=data.Gujarat.districtData.Bhavnagar.delta.confirmed+1;
+    document.getElementById("bhadeaths").innerHTML=data.Gujarat.districtData.Bhavnagar.delta.confirmed;
 
     document.getElementById("kutconf").innerHTML=data.Gujarat.districtData.Kachchh.confirmed;
     document.getElementById("kutdeaths").innerHTML=data.Gujarat.districtData.Kachchh.delta.confirmed;
