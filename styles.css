@@ -3,6 +3,10 @@ body{
     background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
+img{
+    margin: 0;
+}
+
 #sample{
     color: white;
 }
